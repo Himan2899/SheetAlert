@@ -12,7 +12,7 @@ function App() {
     setLoading(true);
     setStatus('');
     try {
-      const res = await fetch(process.env.REACT_APP_API_URL || 'http://localhost:5000/api/entry', {
+      const res = await fetch('/.netlify/functions/payment', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, amount }),
