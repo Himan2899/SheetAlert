@@ -26,8 +26,8 @@ if (!TWILIO_ACCOUNT_SID || !TWILIO_AUTH_TOKEN) {
   throw new Error('Twilio credentials are missing. Please set TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN in your .env file.');
 }
 
-const TWILIO_PHONE_NUMBER = '';
-const RECIPIENT_PHONE_NUMBER = '';
+const TWILIO_PHONE_NUMBER = '+15714894513';
+const RECIPIENT_PHONE_NUMBER = '+919278016080';
 const twilioClient = Twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
 async function appendToSheet(name, amount) {
