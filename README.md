@@ -16,12 +16,6 @@ Built with React (frontend) and Node.js/Express (backend).
 
 ---
 
-## 📸 Demo
-
-![App Screenshot](./frontend/public/logo192.png) <!-- Replace with your own screenshot -->
-
----
-
 ## 🏗️ Project Structure
 
 ```
@@ -96,20 +90,6 @@ cd payment-entry-dashboard
 
 ---
 
-## 📝 Environment Variables
-
-| Variable                   | Description                                 |
-|----------------------------|---------------------------------------------|
-| PORT                       | Backend server port (default: 5000)         |
-| SPREADSHEET_ID             | Google Sheet ID                             |
-| GOOGLE_SERVICE_ACCOUNT_KEY | Path to service account JSON                |
-| TWILIO_ACCOUNT_SID         | Twilio Account SID                          |
-| TWILIO_AUTH_TOKEN          | Twilio Auth Token                           |
-| TWILIO_PHONE_NUMBER        | Your Twilio phone number (E.164 format)     |
-| RECIPIENT_PHONE_NUMBER     | Recipient's phone number (E.164 format)     |
-
----
-
 ## 🛡️ Security Notes
 
 - **Never commit your `.env` or service account JSON to public repos.**
@@ -140,19 +120,6 @@ cd payment-entry-dashboard
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🙋‍♂️ Support
-
-For any questions or support, please open an issue or contact the maintainer.
-
----
 
 ## ⭐ Acknowledgements
 
